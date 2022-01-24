@@ -10,7 +10,7 @@ RPC_URL = "https://testnetv2.pulserpc.io/rpc"
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')
 CHAIN_ID = 940	# Pulsechain Testnet v2	
 MAX_GAS = 2000000
-SEND_INTERVAL = 5  # seconds
+SEND_INTERVAL = 10  # seconds
 
 # Send native token
 def send_pulse(receiver_address, value):
