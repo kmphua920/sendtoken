@@ -1,11 +1,16 @@
-from web3 import Web3
 import json
 import time
+import os
+from web3 import Web3
+from dotenv import load_dotenv
+
+load_dotenv()
 
 RPC_URL = "https://testnetv2.pulserpc.io/rpc"
-PRIVATE_KEY = "a62a37936e3dfdab27991aae0a7a8e14504861268a86bc3ea9646b28d11698da"
+PRIVATE_KEY = os.getenv('PRIVATE_KEY')
 CHAIN_ID = 940	# Pulsechain Testnet v2	
-MAX_GAS = 200000
+MAX_GAS = 2000000
+SEND_INTERVAL = 5  # seconds
 
 # Send native token
 def send_pulse(receiver_address, value):
@@ -66,5 +71,9 @@ with open('pulse.json') as json_file:
 	data = json.load(json_file)
 
 	for i in data['pulse_payout_addresses']:
-		send_pulse(i['receiver'], i['value'])
-		time.sleep(5)
+		receiver = i['receiver']
+		value = i['value']
+		if not receiver or value == 0: 
+			continue
+		send_pulse(receiver, value)
+		time.sleep(SEND_INTERVAL)
