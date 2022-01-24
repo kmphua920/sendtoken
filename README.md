@@ -17,5 +17,5 @@ python3 get-pip.py
 ## Usage
 
 ```bash
-pip sendtoken.py
+python3 sendtoken.py
 ```
