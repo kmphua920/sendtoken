@@ -3,14 +3,6 @@
       {
          "receiver": "0x3487b398546C9b757921df6dE78EC308203f5830",
          "value": 123
-      },
-      {
-         "receiver": "0x5a952b3501c827Ef96412C5CA61418DF93d955C4",
-         "value": 456
-      },
-      {
-         "receiver": "0xAE38425f1F091AC485FCaf402312cdC6d120f973",
-         "value": 369
       }
    ]
 }
