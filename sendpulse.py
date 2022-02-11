@@ -28,7 +28,7 @@ with open('pulse.json') as json_file:
 		value = i['value']
 		if not receiver or value == 0: 
 			continue
-		utils.send_pulse(web3, PRIVATE_KEY, sender_account, receiver, value, f)
+		utils.send_pulse(web3, PRIVATE_KEY, sender_account, web3.toChecksumAddress(receiver), int(value), f)
 		time.sleep(SEND_INTERVAL)
 
 f.close()

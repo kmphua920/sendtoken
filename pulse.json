@@ -1,16 +1,344 @@
 {
    "pulse_payout_addresses": [
-      {
-         "receiver": "0x3487b398546C9b757921df6dE78EC308203f5830",
-         "value": 123
-      },
-      {
-         "receiver": "0x5a952b3501c827Ef96412C5CA61418DF93d955C4",
-         "value": 456
-      },
-      {
+       {
+         "receiver": "0xeA60c66b9adC094cb200a5DD4bd847b696262B08",
+         "value": "95435261602522500"
+       },
+       {
+         "receiver": "0x3c1E73CeB14729a6BC96Ff374f45E01f42A78fFe",
+         "value": "61485901028010900"
+       },
+       {
+         "receiver": "0x266684B45560E26a7C7e6F2280993ebeAb010517",
+         "value": "6521409542839030"
+       },
+       {
          "receiver": "0xAE38425f1F091AC485FCaf402312cdC6d120f973",
-         "value": 369
-      }
+         "value": "23858815400630600"
+       },
+       {
+         "receiver": "0xeBF85E5b0dEa00AB110eE1857f709E35ACA5309B",
+         "value": "4517636943583170"
+       },
+       {
+         "receiver": "0x98de4611DbEb65aBC0C86f16BB6495e7a013c511",
+         "value": "33844159104471700"
+       },
+       {
+         "receiver": "0x12a39B66f8eda3581ff6Be04e8fFD8F5FeaABE11",
+         "value": "7952938466876870"
+       },
+       {
+         "receiver": "0xf62d020cC9da296eADDe43C691E9252fa9c10B2c",
+         "value": "1924611108984200"
+       },
+       {
+         "receiver": "0x45d81FE3768A72e67a11E06f2bA0745DA4cACB64",
+         "value": "7952938466876870"
+       },
+       {
+         "receiver": "0x965d023d514B2a7cDB4165830712ed6900a6d6b9",
+         "value": "50898806188012000"
+       },
+       {
+         "receiver": "0x198EdA33f781bB3eBf98A800ae8Fc2E826A67FFc",
+         "value": "71576446201891800"
+       },
+       {
+         "receiver": "0xC5d7B42CDb68395530cDf6bF86B60a2253b7e93D",
+         "value": "15905876933753700"
+       },
+       {
+         "receiver": "0xC874326Ad31bf73d483a423dc31DbD2a2460ce87",
+         "value": "4771763080126120"
+       },
+       {
+         "receiver": "0xdcc41153d174e5e8e808825e427fcdae8a0272c1",
+         "value": "3386536163842440"
+       },
+       {
+         "receiver": "0xD3E684B4C0E04c38DbA74022bF0dA66fE608E386",
+         "value": "31811753867507500"
+       },
+       {
+         "receiver": "0xDb728a9740C3a1A3431b5F50510D7763Cb2d3DEC",
+         "value": "39764692334384400"
+       },
+       {
+         "receiver": "0x27a573294Cc43Ae793b9fC5932D48FB36129c44f",
+         "value": "15905876933753700"
+       },
+       {
+         "receiver": "0x099612344304432B9990Cbd1A10952C57DF51642",
+         "value": "6132447228301020"
+       },
+       {
+         "receiver": "0x0aF7d613b3fe444999f2e136d765414f5cc59e8a",
+         "value": "47717630801261200"
+       },
+       {
+         "receiver": "0xBb86ccb4eF165535Bef08BFC616a171855c27885",
+         "value": "4339600403836030"
+       },
+       {
+         "receiver": "0x253584543D8273444dE5A029B5a56D083958190A",
+         "value": "8728858955459250"
+       },
+       {
+         "receiver": "0x98de4611DbEb65aBC0C86f16BB6495e7a013c511",
+         "value": "858917354422702"
+       },
+       {
+         "receiver": "0x98de4611DbEb65aBC0C86f16BB6495e7a013c511",
+         "value": "2147293386056750"
+       },
+       {
+         "receiver": "0xF3BBC28172f170Cc840158E44815649ACfB1Ee9B",
+         "value": "429458677211351"
+       },
+       {
+         "receiver": "0x444Ee9e75a95a27376E2dfeD9F2f2782710e5beE",
+         "value": "7157644620189180"
+       },
+       {
+         "receiver": "0x8B215a344Fc1d6d705a36f7C7166896A890BAe65",
+         "value": "2863057848075670"
+       },
+       {
+         "receiver": "0x43296325cDC248D86dEb2f613Ff1E4D8563d7A2a",
+         "value": "1875947078505380"
+       },
+       {
+         "receiver": "0x4de9F6F29B13EB437C8769279AD04924a7EB0d9A",
+         "value": "506288834564462"
+       },
+       {
+         "receiver": "0x0Af2d545B16B1B6cD2C73f40d2425588cC16c366",
+         "value": "930493800624594"
+       },
+       {
+         "receiver": "0x98de4611DbEb65aBC0C86f16BB6495e7a013c511",
+         "value": "1431528924037840"
+       },
+       {
+         "receiver": "0xdef5bb9dd46ecd69ed3020a78befbd4b645edbdc",
+         "value": "7157644620189180"
+       },
+       {
+         "receiver": "0x1921FAa0f7739Ad9C78056C7F31c602b3c7E5c97",
+         "value": "410419342521648"
+       },
+       {
+         "receiver": "0xa1Aeef99D3A5A0ce2BfE26304523ef725d32A767",
+         "value": "22153668809815300"
+       },
+       {
+         "receiver": "0xdd3386c673be94a58bc74d0bc33c1ce510c8e76d",
+         "value": "2310187062323020"
+       },
+       {
+         "receiver": "0xe0c9a710baa7a11c45edd2158a9c8a240aa08df3",
+         "value": "7157644620189180"
+       },
+       {
+         "receiver": "0x7e6F5C19Bf30Ea93e51fA87634886e7d2cb857Df",
+         "value": "14315289240378400"
+       },
+       {
+         "receiver": "0x5ce18c3b827c4dac1ff0c563460869afd25b4b19",
+         "value": "27199049556719"
+       },
+       {
+         "receiver": "0x296C8F89069649f02F9F8f7DaFB11E1dC491BE66",
+         "value": "2863057848075670"
+       },
+       {
+         "receiver": "0xe726fcf4e6feaa807792efbcb9ecc80072660cf2",
+         "value": "5726115696151350"
+       },
+       {
+         "receiver": "0x80Aa5249E40695a44aDAC99Cf8CFFF14D13Bb45d",
+         "value": "4294586772113510"
+       },
+       {
+         "receiver": "0xd976891378bdb926e87e63352c620970287ce9ff",
+         "value": "7401004537275620"
+       },
+       {
+         "receiver": "0x42c97dc4f2f50c4854d0fe645c81a15214b1ae1f",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0x8C5C0DF151A87Db5ee393Ff3a66A156e42398f0B",
+         "value": "27313571870642"
+       },
+       {
+         "receiver": "0x24b4f85307a182f0e8d373b360b2547f2c1c783c",
+         "value": "8589173544227020"
+       },
+       {
+         "receiver": "0x427B001D455484FEb1Fa9655D86777576B489D60",
+         "value": "5080496151410280"
+       },
+       {
+         "receiver": "0x32a75c51ea891707c2ad76a5780b37f5bfd725ac",
+         "value": "930493800624594"
+       },
+       {
+         "receiver": "0x8301c50ecF64EdAa7Adb82d1b5a2310AC090EAc5",
+         "value": "1080804337648570"
+       },
+       {
+         "receiver": "0x80fd7ebd413b53bd0470ca5bb4349be30728ad60",
+         "value": "5282341729699620"
+       },
+       {
+         "receiver": "0xd15e6bb0804bb234ffd7e6ec1bb22b92b70c2a15",
+         "value": "7515526851198640"
+       },
+       {
+         "receiver": "0xcb12038a1794849ca975e0ee98195f49687a71e9",
+         "value": "673792033966129"
+       },
+       {
+         "receiver": "0x1793a9D2752A0E65EA66e1D5F536d59717D622a4",
+         "value": "143152892403784"
+       },
+       {
+         "receiver": "0xdc7be9721b2247A9308D48B170BA4a7d6B3C4fD0",
+         "value": "186098760124919"
+       },
+       {
+         "receiver": "0x8a463603daac0f4cfd72255f28d781396a7ed1e8",
+         "value": "386512809490216"
+       },
+       {
+         "receiver": "0x0d11d0e15a57a05fd21865492e516b3fae67e0b9",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0xff8c8a26c47013c976d522e5ce6e17ed74d585af",
+         "value": "7157644620189180"
+       },
+       {
+         "receiver": "0xa8619e6830c4069440f9a6819eb16bee2da05227",
+         "value": "289168842655643"
+       },
+       {
+         "receiver": "0xa2ac084122842b18e368e13deeece661eee29f83",
+         "value": "337153692189391"
+       },
+       {
+         "receiver": "0xc5787b68b52a994aa9dc9ce9f7a4f8e1694465a5",
+         "value": "4008280987305940"
+       },
+       {
+         "receiver": "0xAC9917d3c0B7472f9D5E5f24e2FC252991A69872",
+         "value": "357882231009459"
+       },
+       {
+         "receiver": "0x525cccB147679Ef6CB085ffDE4ff740B5C78528c",
+         "value": "1431528924037840"
+       },
+       {
+         "receiver": "0x6b2615167103190c7f0f5d2800e11247675b64ec",
+         "value": "1832357022768430"
+       },
+       {
+         "receiver": "0x480F363121C6451d28DF8536711Da0Db629B4Ea8",
+         "value": "2863057848075670"
+       },
+       {
+         "receiver": "0xced2d8a158edabae3bebd59325f54ec21c27f2b9",
+         "value": "799204715478261"
+       },
+       {
+         "receiver": "0x9b572c432e81aab3c217e74e8c35121bc512b656",
+         "value": "14315289240378400"
+       },
+       {
+         "receiver": "0x98d7a623705a62153d6e88d43ea745708becb7fd",
+         "value": "10020702468264900"
+       },
+       {
+         "receiver": "0x4d620f510a56819e5122c4129ed6a82c198e99a8",
+         "value": "1300787387405460"
+       },
+       {
+         "receiver": "0x45b39831081d69e9d8caf9b4c5238b06fbc47758",
+         "value": "55674249888060600"
+       },
+       {
+         "receiver": "0x13ffd067063174c330b61a522784e5b28b345339",
+         "value": "1431528924037840"
+       },
+       {
+         "receiver": "0x0d1a4a73569f977a2c61e35b8efda0c27c46f294",
+         "value": "15574805648903800"
+       },
+       {
+         "receiver": "0x3D96fa62Dde462054DFd6211b777dDbd2c73FDf3",
+         "value": "5010351234132430"
+       },
+       {
+         "receiver": "0x1D93bD98B6a8c34A3Ba9615138bD238b4a2483dF",
+         "value": "2713634858984600"
+       },
+       {
+         "receiver": "0x000669be3B13913DfA76DF308Cb92e3bE88106D2",
+         "value": "14315289240378400"
+       },
+       {
+         "receiver": "0xf3cfee4a574c22789be6c483370a0a36f21bc1d8",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0x70974e1b2e5557af2ea18189037ade2b89b2ec61",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0xbf52864feb04cec892f4368bb7a285955afffce3",
+         "value": "1574681816441620"
+       },
+       {
+         "receiver": "0xd6407F4cF659f971fA49759a6C94B477080E32ad",
+         "value": "178813666484622000"
+       },
+       {
+         "receiver": "0x456FFC2df1373231E8C31d8d07d2b59A27993273",
+         "value": "7876157617742250"
+       },
+       {
+         "receiver": "0xc046a433c09957bf06ead0f34348fc1384971e4a",
+         "value": "2061702271688530"
+       },
+       {
+         "receiver": "0x0c40cdecb2c514327316c460d36c2afc0fdc8ab8",
+         "value": "1030700825307240"
+       },
+       {
+         "receiver": "0x17e8565190e5b0879f28e3dde1b3d8d22461c19c",
+         "value": "4308902061353890"
+       },
+       {
+         "receiver": "0x89a45e826dc10B28cf7E0BaacCef7AaD95faF7C0",
+         "value": "1116592560749510"
+       },
+       {
+         "receiver": "0x5ba97e16d5b25e63af7934471a0c7ed49f8df8ff",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0xf84c368d23b7f79102e29008f1a9680b7a40019c",
+         "value": "536823346514189"
+       },
+       {
+         "receiver": "0xE380f26E31d77823b6B5Da0f54109EefE3802ee3",
+         "value": "715764462018918"
+       },
+       {
+         "receiver": "0xB76756D45ee4683756Aaf257a6A8eC093FC6ED0b",
+         "value": "286305784807567"
+       }
    ]
 }
