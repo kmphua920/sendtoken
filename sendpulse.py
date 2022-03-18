@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-RPC_URL = "https://testnetv2.pulserpc.io/rpc"
+RPC_URL = "https://rpc.v2.testnet.pulsechain.com"
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')
 SEND_INTERVAL = 10  # seconds
 
