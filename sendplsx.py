@@ -20,15 +20,15 @@ sender_account = web3.eth.account.privateKeyToAccount(PRIVATE_KEY)
 f = open(log_file_name, 'w')
 
 # Opening JSON file
-with open('hex.json') as json_file:
+with open('plsx.json') as json_file:
 	data = json.load(json_file)
 
-	for i in data['hex_payout_addresses']:
+	for i in data['plsx_payout_addresses']:
 		receiver = i['receiver']
 		value = i['value']
 		if not receiver or value == 0: 
 			continue
-		utils.send_hex(web3, PRIVATE_KEY, sender_account, web3.toChecksumAddress(receiver), int(value), f)
+		utils.send_plsx(web3, PRIVATE_KEY, sender_account, web3.toChecksumAddress(receiver), int(value), f)
 		time.sleep(SEND_INTERVAL)
 
 f.close()

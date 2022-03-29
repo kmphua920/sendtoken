@@ -8,9 +8,9 @@ import os
 
 load_dotenv()
 
-RPC_URL = "https://rpc.v2.testnet.pulsechain.com"
+RPC_URL = "https://rpc.v2b.testnet.pulsechain.com"
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')
-SEND_INTERVAL = 10  # seconds
+SEND_INTERVAL = 20  # seconds
 
 now = datetime.now()
 log_file_name = now.strftime("%Y%m%d_%H:%M:%S.log")
