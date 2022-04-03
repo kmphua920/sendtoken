@@ -1,4 +1,4 @@
-# sendtoken
+m1.c# sendtoken
 Python script to automate batch token sends to multiple addresses 
 
 ## Installation
