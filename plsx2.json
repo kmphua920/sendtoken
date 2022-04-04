@@ -1,0 +1,9 @@
+{
+    "plsx_payout_addresses":
+    [
+        {
+            "receiver": "0xC13c01B1319cc79Faa97630DdC0Fb1939C1e9ca6",
+            "value": "1000000"
+        }
+    ]
+}

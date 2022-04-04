@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 RPC_URL = "https://rpc.v2b.testnet.pulsechain.com"
-PRIVATE_KEY = os.getenv('PRIVATE_KEY')
+PRIVATE_KEY = os.getenv('PRIVATE_KEY_PLSX_POOL_2')
 SEND_INTERVAL = 10  # seconds
 
 now = datetime.now()
@@ -20,7 +20,7 @@ sender_account = web3.eth.account.privateKeyToAccount(PRIVATE_KEY)
 f = open(log_file_name, 'w')
 
 # Opening JSON file
-with open('plsx.json') as json_file:
+with open('plsx2.json') as json_file:
 	data = json.load(json_file)
 
 	for i in data['plsx_payout_addresses']:

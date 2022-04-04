@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 RPC_URL = "https://rpc.v2b.testnet.pulsechain.com"
-PRIVATE_KEY = os.getenv('PRIVATE_KEY')
+PRIVATE_KEY = os.getenv('PRIVATE_KEY_PLSX_POOL_1')
 SEND_INTERVAL = 10  # seconds
 
 now = datetime.now()
@@ -20,15 +20,15 @@ sender_account = web3.eth.account.privateKeyToAccount(PRIVATE_KEY)
 f = open(log_file_name, 'w')
 
 # Opening JSON file
-with open('pulse.json') as json_file:
+with open('plsx1.json') as json_file:
 	data = json.load(json_file)
 
-	for i in data['pulse_payout_addresses']:
+	for i in data['plsx_payout_addresses']:
 		receiver = i['receiver']
 		value = i['value']
 		if not receiver or value == 0: 
 			continue
-		utils.send_pulse(web3, PRIVATE_KEY, sender_account, web3.toChecksumAddress(receiver), int(value), f)
+		utils.send_plsx(web3, PRIVATE_KEY, sender_account, web3.toChecksumAddress(receiver), int(value), f)
 		time.sleep(SEND_INTERVAL)
 
 f.close()
