@@ -14,7 +14,7 @@ load_dotenv()
 
 RPC_URL = "https://rpc.v3.testnet.pulsechain.com"
 PRIVATE_KEY = os.getenv('PRIVATE_KEY_PLSX_POOL_2')
-SEND_INTERVAL = 20  # seconds
+SEND_INTERVAL = 30  # seconds
 
 now = datetime.now()
 log_file_name = now.strftime("%Y%m%d_%H:%M:%S.log")
