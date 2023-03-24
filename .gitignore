@@ -1,5 +1,4 @@
 .env
-*.log
 __pycache__
 .DS_Store
 hdwallettest.py
