@@ -49,7 +49,7 @@ def send_hex(web3, private_key, sender_account, receiver_address, value, f):
 
 # Send PLSX PRC20 token
 def send_plsx(web3, private_key, sender_account, receiver_address, value, f):
-	contract_address = "0x3b34fff74497ca21771ce9a0c11cb07490686a58"
+	contract_address = "0x3b34Fff74497cA21771ce9a0c11cb07490686A58"
 
 	with open("ierc20_abi.json") as json_file:
 		info_json = json.load(json_file)
