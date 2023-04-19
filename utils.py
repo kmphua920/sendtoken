@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import json
 
-CHAIN_ID = 942	# Pulsechain Testnet v3	
+CHAIN_ID = 943	# Pulsechain Testnet v4	
 MAX_GAS = 2000000
 
 # Send native token
@@ -49,7 +49,7 @@ def send_hex(web3, private_key, sender_account, receiver_address, value, f):
 
 # Send PLSX PRC20 token
 def send_plsx(web3, private_key, sender_account, receiver_address, value, f):
-	contract_address = "0x3b34Fff74497cA21771ce9a0c11cb07490686A58"
+	contract_address = "0x8a810ea8B121d08342E9e7696f4a9915cBE494B7"
 
 	with open("ierc20_abi.json") as json_file:
 		info_json = json.load(json_file)
