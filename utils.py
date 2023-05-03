@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import json
 
-CHAIN_ID = 943	# Pulsechain Testnet v4	
+CHAIN_ID = 369	# Pulsechain Mainnet
 MAX_GAS = 2000000
 
 # Send native token
