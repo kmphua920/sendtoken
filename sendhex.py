@@ -12,7 +12,7 @@ import os
 
 load_dotenv()
 
-RPC_URL = "https://rpc.mainnet.pulsechain.com"
+RPC_URL = "https://rpc.pulsechain.com"
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')
 SEND_INTERVAL = 30  # seconds
 
